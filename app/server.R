@@ -2,6 +2,7 @@ library("shiny")
 library("ggplot2")
 source("plotter.R")
 source("helpers.R")
+source("global.R")
 
 shinyServer(
     function(input, output) {

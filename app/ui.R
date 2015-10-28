@@ -1,4 +1,5 @@
 library("shiny")
+source("global.R")
 
 shinyUI(
     fixedPage(style = "padding-top: 20px;",
